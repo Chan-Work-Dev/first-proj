@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'inter', sans-serif;
+    background-color: #eaf3f4;
+    color: #0a2a43;
+}
+
+:root {
+    --deep: #0b3d5c;
+    --navy: #0a2a43;
+    --teal: #1f7a6c;
+    --aqua: #4fd1c5;
+    --sky: #a8dadc;
+    --white: #ffffff;
+    --mist: #e8f1f2;
+    --border: rgba(10,42,67,0.09);
+}
+
+body {
+    color: var(--navy);
+}
